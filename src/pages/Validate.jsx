@@ -34,7 +34,7 @@ export default function Validate () {
               variant="contained"
               className="p-3 mb-3"
               color="success"
-              style={{ padding: "5px", width: "230px" }}
+              style={{ padding: "5px", width: "250px" }}
               onClick={() => {
                 registerUser(name);
               }}>
