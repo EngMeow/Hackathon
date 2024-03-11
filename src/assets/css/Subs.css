@@ -42,12 +42,12 @@
 
 .card {
     cursor: pointer;
-    transition: background 2s ease-in-out;
+    transition: background 1s ease-in-out;
     background-color: white;
 }
 
 .card:hover {
-    background: linear-gradient( to top left, #11c94833 20%, #01a517 100%);
+    background-color: #01a517 ;
 }
 
 a {
