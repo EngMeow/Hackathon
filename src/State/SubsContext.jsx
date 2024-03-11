@@ -9,7 +9,6 @@ const alertFire = (title, icon) => {
     position: "top-right",
     showConfirmButton: false,
     timer: 2000,
-    timerProgressBar: true,
   }).fire({
     title,
     icon,
@@ -20,9 +19,11 @@ const alertFire = (title, icon) => {
 export const SubsContext = createContext();
 
 const SubsContextProvider = ({ children }) => {
+  
   const [subs, setSubs] = useState(
     JSON.parse(localStorage.getItem("subs")) || []
   );
+
   const [userName, setUserName] = useState(
     localStorage.getItem("userName") || null
   );
@@ -40,7 +41,7 @@ const SubsContextProvider = ({ children }) => {
     localStorage.setItem("subs", JSON.stringify(subs));
   }, [subs]); 
 
-  const register = (value) => {
+  const registerUser = (value) => {
     setUserName(value);
     localStorage.setItem("userName", value);
     alertFire("Welcome to Hackathon, " + value, "success");
@@ -99,7 +100,7 @@ const SubsContextProvider = ({ children }) => {
     <SubsContext.Provider
       value={{
         userName,
-        register,
+        registerUser,
         subs,
         addSub,
         updateSub,

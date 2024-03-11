@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect";
 import '../assets/css/HackValidate.css'
 
 export default function Validate () {
-  const { register } = useContext(SubsContext);
+  const { registerUser } = useContext(SubsContext);
   const [name, setName] = useState(null);
 
   return (
@@ -48,7 +48,7 @@ export default function Validate () {
               color="success"
               style={{ padding: "5px", width: "230px" }}
               onClick={() => {
-                register(name);
+                registerUser(name);
               }}>
               Login
             </Button>
