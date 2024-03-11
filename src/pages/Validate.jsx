@@ -2,7 +2,6 @@ import { useContext, useState } from "react";
 import { SubsContext } from "../State/SubsContext.jsx";
 import { Button, TextField } from "@mui/material";
 import images from "../config/constants.js";
-import Typewriter from "typewriter-effect";
 import '../assets/css/HackValidate.css'
 
 export default function Validate () {
@@ -14,18 +13,7 @@ export default function Validate () {
       <div
         className="OpenEvent text-center"
       >
-        <Typewriter
-          onInit={(typewriter) => {
-            typewriter
-              .typeString("Welcome to Hackthon Events , Handle you Events Easlessly")
-              .pauseFor(2500)
-              .deleteAll()
-              .start();
-          }}
-          options={{
-            loop: true,
-          }}
-        />
+        <h1>Welcome to Hackthon Events.</h1>
         <img
           src={images.validate}
           style={{ width: "400px", height:'300px', objectFit:'cover' }}
