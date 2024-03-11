@@ -1,0 +1,20 @@
+.OpenEvent{
+        background-image: url('../image/Opening Page.jpg');
+        background-repeat: no-repeat;
+        object-fit: cover;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        text-align: center;
+        padding-top: 5rem;
+        color:white;
+}
+
+#outlined-required{
+        font-size: 20px;
+       
+}
+
+#outlined-required:in-range{
+        border: none;
+}

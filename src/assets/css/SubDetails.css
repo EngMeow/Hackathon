@@ -1,0 +1,175 @@
+#subhero {
+    background-color: #003145;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  @media (max-width: 1000px) {
+    #subhero {
+      padding-top: 1.3rem;
+      padding-bottom: 1.3rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    #subhero {
+      padding-top: 0.6rem;
+      padding-bottom: 0.6rem;
+    }
+  }
+  
+  #subhero div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #subhero img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 40px;
+  }
+  
+  #subhero .subaction {
+    flex-direction: column;
+  }
+  
+  #subhero .subaction button {
+    border: 1px solid #ffffff;
+    width: min-content;
+    min-width: 120px;
+    height: min-content;
+    min-height: 40px;
+    padding: 6px 18px;
+    border-radius: 10px;
+    background: transparent;
+    margin: auto;
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  #subhero .subaction button a {
+    color: white;
+  }
+  
+  #subhero p {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 3rem;
+  }
+  
+  #subhero span.icon {
+    cursor: pointer;
+    padding: 10px 24px 0px 0px;
+    border-right: 5px solid #255973;
+    margin-right: 24px;
+  }
+  
+  #subhero span.date {
+    vertical-align: super;
+    padding: 6px 12px;
+    border-radius: 100px;
+    background: #255973;
+  }
+  
+  
+  .deletesub > div > div {
+    width: 450px;
+    padding: 24px;
+    border-radius: 24px;
+  }
+  
+  .deletesub > div > div button {
+    background: transparent;
+    padding: 8px 18px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+  }
+  
+  .deletesub > div > div button.delete {
+    background: #df2c1d;
+    border: 1px solid black;
+    color: white;
+  }
+  
+  /* sub Details Page Description Section */
+  #subdescription {
+    color: #fff;
+    color: #222222;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  @media (max-width: 1000px) {
+    #subdescription {
+      padding-top: 1.3rem;
+      padding-bottom: 1.3rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    #subdescription {
+      padding-top: 0.6rem;
+      padding-bottom: 0.6rem;
+    }
+  }
+  
+  #subdescription h3 {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  #subdescription div.description {
+    width: 60%;
+  }
+  
+  #subdescription p {
+    color: #333333;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  #subdescription div.details {
+    width: 30%;
+  }
+  
+  #subdescription div.details h4 {
+    color: #858585;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  
+  #subdescription div.details p {
+    color: #858585;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  
+  #subdescription div.details a {
+    border: 1px solid #666666;
+    padding: 6px 18px;
+    border-radius: 10px;
+    gap: 12px;
+    text-decoration: none;
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+  }
+  
