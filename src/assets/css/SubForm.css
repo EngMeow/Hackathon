@@ -3,7 +3,7 @@
     background: #f8f9fd;
     padding-top: 3.625rem;
     padding-bottom: 3.625rem;
-    background-color: #00fc1938;
+    background-color: #03800f4f;
   }
   
   @media (max-width: 1000px) {
@@ -44,6 +44,7 @@
     margin-top: 8px;
     color: white;
     font-size: 16px;
+    transition: all 0.5s ease-in-out;
   }
 
   #formInput form button:hover {

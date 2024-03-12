@@ -22,7 +22,7 @@ export const SubCard = ({ item }) => {
         <span className="card-title h4 mx-3">{item.title}</span>
       </motion.div>
       <p className="card-text py-3">{item.summary}</p>
-      <p className="card-text createdAt text-end text-secondary fst-italic" style={{'fontSize':14}}>uploaded {moment(item.createdAt).fromNow()}</p>
+      <p className="card-text createdAt text-end fst-italic" style={{'fontSize':14}}>uploaded {moment(item.createdAt).fromNow()}</p>
     </Link>
     </div>
     </div>

@@ -17,7 +17,7 @@ export function SubHero () {
         reflecting the dynamic range of ideas explored by participants. Categories such as AI technologies saw a convergence of creativity, addressing real-world problems with technological solutions.
         </p>
         <button
-          className="btn btn-success p-3 mt-4"
+          className="btn p-3 mt-4 rounded-4"
           style={{ cursor: "pointer" }}
           onClick={() => {
             navigate("/new");

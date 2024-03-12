@@ -24,7 +24,7 @@ function Deletesub({ open, setOpen, removesub, subId }) {
     >
       <h3>Delete model</h3>
       <p>
-        This action is irreversible. Are you sure you want to delete this model?
+        Are you sure you want to delete this model ?
       </p>
       <div style={{ textAlign: "end" }}>
         <button
@@ -65,7 +65,7 @@ export const SubHero = ({ sub }) => {
           <div className="subaction mb-0">
             <Link to={`edit`}>
               <button>
-                <ModeEditOutlineIcon className="me-2"/>Edit</button>
+                <ModeEditOutlineIcon className=" me-2"/>Edit</button>
             </Link>
             <button onClick={() => {setOpen(true);}}>
                 <DeleteIcon className="me-1"/>Delete</button>

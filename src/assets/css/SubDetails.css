@@ -49,11 +49,20 @@
     margin-bottom: 15px;
     cursor: pointer;
     color: white;
+    transition: background 0.5s ease-in-out,color 0.5s ease-in-out;
   }
+
+
   
   #subhero .subaction button a {
     color: white;
   }
+
+  #subhero .subaction button:hover{
+    background-color: white;
+    color:#003145;
+  }
+
   
   #subhero p {
     font-size: 17px;
@@ -171,5 +180,11 @@
     font-weight: 500;
     display: flex;
     justify-content: center;
+    transition: background 0.5s ease-in-out,color 0.5s ease-in-out;
+  }
+
+  #subdescription div.details a:hover{
+    background-color: #666666;
+    color: white;
   }
   

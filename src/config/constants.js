@@ -158,7 +158,7 @@ export const initialData = [
     id: 9,
     userName: "Basyoni",
     isFavorited: false,
-    title: "Blockchain Voting System",
+    title: "Blockchain System",
     summary: "Secure and transparent elections with blockchain technology.",
     description:
       "Revolutionize the democratic process with our Blockchain Voting System. Built on secure and transparent blockchain technology, our system ensures the integrity of election results, eliminates fraud, and provides accessible and verifiable voting for citizens. Empower democracy with cutting-edge technology and make every vote count.",

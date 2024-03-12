@@ -23,8 +23,15 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 28px;
+    background-color: #14A44D;
+    color: white;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out 
 }
 
+.containerArea button:hover {
+    background-color: white;
+    color:#14A44D;
+}
 
 .nav-item a{
     font-weight: 500;
@@ -42,11 +49,25 @@
 
 .card {
     cursor: pointer;
-    transition: background 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    a {
+      transition: all 0.5s ease-in-out;
+    }
+    p {
+      color:#333;
+      transition: all 0.5s ease-in-out;
+    }
 }
 
 .card:hover {
     background-color: #14A44D ;
+    box-shadow: #003145 0px 0px 10px 10px;
+    a {
+      color: white;
+    }
+    p {
+      color:white
+    }
 }
 
 a {
@@ -58,7 +79,7 @@ button a {
 }
 
 input {
-  transition: 0.8s; 
+  transition: 0.5s; 
 }
 
 img {
@@ -292,4 +313,10 @@ option {
   color: #333;
   border-radius: 16px;
  }
+
+
+ .subcard .createdAt {
+  color: rgba(0, 0, 0, 0.5);
+ }
+
 
