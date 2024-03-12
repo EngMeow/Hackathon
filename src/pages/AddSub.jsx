@@ -33,7 +33,7 @@ export const Addsub = () => {
     setImage(value);
   };
   useEffect(() => {
-    document.title = "Add sub";
+    document.title = "Submission Form";
   }, []);
   return (
     <>

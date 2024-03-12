@@ -8,9 +8,11 @@ export function SubContent(){
   const [tab, setTab] = useState("All");
   const { subs } = useContext(SubsContext);
   const [filteredsubs, setFilteredsubs] = useState(subs);
+
   useEffect(() => {
     setFilteredsubs(subs);
   }, [subs]);
+  
   const filterByTitle = (query) => {
     setFilteredsubs(
       subs.filter((sub) =>
@@ -18,6 +20,7 @@ export function SubContent(){
       )
     );
   };
+
   const sortByDate = (sortBy) => {
     setFilteredsubs(subs);
     if (sortBy == "Newest") {
@@ -66,18 +69,17 @@ export function SubContent(){
               filterByTitle(event.target.value);
             }}
           />
-          
-          <select
-            className="mx-2 custom-select"
-            onChange={(event) => {
-              sortByDate(event.target.value);
-            }}
-            defaultValue="default"
-          >
-            <option disabled value="default" >Sort By</option>
-            <option value="Newest">Newest</option>
-            <option value="Oldest">Oldest</option>
-          </select>
+            <select
+              className="mx-2 custom-select"
+              onChange={(event) => {
+                sortByDate(event.target.value);
+              }}
+              defaultValue="default"
+            >
+              <option disabled value="default" >Sort By</option>
+              <option value="Newest">Newest</option>
+              <option value="Oldest">Oldest</option>
+            </select>
         </div>
       </div>
       <AnimatePresence>

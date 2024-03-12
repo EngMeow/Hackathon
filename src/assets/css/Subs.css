@@ -43,11 +43,10 @@
 .card {
     cursor: pointer;
     transition: background 1s ease-in-out;
-    background-color: white;
 }
 
 .card:hover {
-    background-color: #01a517 ;
+    background-color: #14A44D ;
 }
 
 a {
@@ -204,7 +203,7 @@ body {
 }
 
 #tabs {
-  background-color:#00fc1938
+  background-color:#03800f4f
 }
 
 #tabs .tabsnavbar {

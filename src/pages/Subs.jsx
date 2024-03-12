@@ -4,7 +4,7 @@ import { SubContent } from './../components/Submissions/SubContent';
 
 export default function Subs () {
   useEffect(() => {
-    document.title = "Hacktahon";
+    document.title = "Hacktahon submissions";
   }, []);
   return (
     <>

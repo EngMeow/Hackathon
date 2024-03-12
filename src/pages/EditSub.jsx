@@ -23,7 +23,7 @@ export const EditSub = () => {
   };
 
   useEffect(() => {
-    document.title = "sub Details";
+    document.title = "Submission Form";
   }, []);
 
   const handleSubmit = (values, { setSubmitting }) => {
